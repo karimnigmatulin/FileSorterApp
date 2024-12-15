@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.sort_folder.FileSorterApp">
+    <Text text="File Sorter Application" style="-fx-font-size: 20;"/>
+    <TextField fx:id="folderPathField" promptText="Введите путь к папке" minWidth="250"/>
+    <Button fx:id="sortButton" text="Сортировать" onAction="#onSortButtonClick"/>
+    <Text fx:id="resultText"/>
+</VBox>
